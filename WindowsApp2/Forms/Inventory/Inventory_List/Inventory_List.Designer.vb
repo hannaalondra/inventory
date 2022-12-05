@@ -89,8 +89,9 @@ Partial Class Inventory_List
         Me.Bar1.DockCol = 0
         Me.Bar1.DockRow = 0
         Me.Bar1.DockStyle = DevExpress.XtraBars.BarDockStyle.Bottom
+        Me.Bar1.FloatLocation = New System.Drawing.Point(495, 615)
         Me.Bar1.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() {New DevExpress.XtraBars.LinkPersistInfo(Me.btnAdd), New DevExpress.XtraBars.LinkPersistInfo(Me.btnView), New DevExpress.XtraBars.LinkPersistInfo(Me.BarButtonItem4)})
-        Me.Bar1.Offset = 411
+        Me.Bar1.Offset = 559
         Me.Bar1.OptionsBar.DistanceBetweenItems = 10
         Me.Bar1.Text = "Tools"
         '
@@ -127,15 +128,15 @@ Partial Class Inventory_List
         Me.barDockControlTop.Dock = System.Windows.Forms.DockStyle.Top
         Me.barDockControlTop.Location = New System.Drawing.Point(0, 0)
         Me.barDockControlTop.Manager = Me.BarManager1
-        Me.barDockControlTop.Size = New System.Drawing.Size(657, 0)
+        Me.barDockControlTop.Size = New System.Drawing.Size(811, 0)
         '
         'barDockControlBottom
         '
         Me.barDockControlBottom.CausesValidation = False
         Me.barDockControlBottom.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.barDockControlBottom.Location = New System.Drawing.Point(0, 402)
+        Me.barDockControlBottom.Location = New System.Drawing.Point(0, 406)
         Me.barDockControlBottom.Manager = Me.BarManager1
-        Me.barDockControlBottom.Size = New System.Drawing.Size(657, 24)
+        Me.barDockControlBottom.Size = New System.Drawing.Size(811, 24)
         '
         'barDockControlLeft
         '
@@ -143,15 +144,15 @@ Partial Class Inventory_List
         Me.barDockControlLeft.Dock = System.Windows.Forms.DockStyle.Left
         Me.barDockControlLeft.Location = New System.Drawing.Point(0, 0)
         Me.barDockControlLeft.Manager = Me.BarManager1
-        Me.barDockControlLeft.Size = New System.Drawing.Size(0, 402)
+        Me.barDockControlLeft.Size = New System.Drawing.Size(0, 406)
         '
         'barDockControlRight
         '
         Me.barDockControlRight.CausesValidation = False
         Me.barDockControlRight.Dock = System.Windows.Forms.DockStyle.Right
-        Me.barDockControlRight.Location = New System.Drawing.Point(657, 0)
+        Me.barDockControlRight.Location = New System.Drawing.Point(811, 0)
         Me.barDockControlRight.Manager = Me.BarManager1
-        Me.barDockControlRight.Size = New System.Drawing.Size(0, 402)
+        Me.barDockControlRight.Size = New System.Drawing.Size(0, 406)
         '
         'ItemsTableAdapter
         '
@@ -159,7 +160,7 @@ Partial Class Inventory_List
         '
         'srchName
         '
-        Me.srchName.Location = New System.Drawing.Point(54, 39)
+        Me.srchName.Location = New System.Drawing.Point(56, 28)
         Me.srchName.MenuManager = Me.BarManager1
         Me.srchName.Name = "srchName"
         Me.srchName.Properties.ValidateOnEnterKey = True
@@ -169,7 +170,7 @@ Partial Class Inventory_List
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(18, 43)
+        Me.Label1.Location = New System.Drawing.Point(20, 32)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(35, 13)
         Me.Label1.TabIndex = 15
@@ -178,7 +179,7 @@ Partial Class Inventory_List
         'btnSearch
         '
         Me.btnSearch.ImageOptions.Image = CType(resources.GetObject("btnSearch.ImageOptions.Image"), System.Drawing.Image)
-        Me.btnSearch.Location = New System.Drawing.Point(367, 38)
+        Me.btnSearch.Location = New System.Drawing.Point(369, 27)
         Me.btnSearch.Name = "btnSearch"
         Me.btnSearch.Size = New System.Drawing.Size(75, 23)
         Me.btnSearch.TabIndex = 26
@@ -186,7 +187,7 @@ Partial Class Inventory_List
         '
         'btnClear
         '
-        Me.btnClear.Location = New System.Drawing.Point(448, 38)
+        Me.btnClear.Location = New System.Drawing.Point(450, 27)
         Me.btnClear.Name = "btnClear"
         Me.btnClear.Size = New System.Drawing.Size(75, 23)
         Me.btnClear.TabIndex = 27
@@ -195,7 +196,7 @@ Partial Class Inventory_List
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(134, 43)
+        Me.Label2.Location = New System.Drawing.Point(136, 32)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(35, 13)
         Me.Label2.TabIndex = 29
@@ -203,7 +204,7 @@ Partial Class Inventory_List
         '
         'srchBrand
         '
-        Me.srchBrand.Location = New System.Drawing.Point(170, 39)
+        Me.srchBrand.Location = New System.Drawing.Point(172, 28)
         Me.srchBrand.MenuManager = Me.BarManager1
         Me.srchBrand.Name = "srchBrand"
         Me.srchBrand.Properties.ValidateOnEnterKey = True
@@ -213,7 +214,7 @@ Partial Class Inventory_List
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(249, 42)
+        Me.Label3.Location = New System.Drawing.Point(251, 31)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(26, 13)
         Me.Label3.TabIndex = 31
@@ -221,7 +222,7 @@ Partial Class Inventory_List
         '
         'srchSku
         '
-        Me.srchSku.Location = New System.Drawing.Point(277, 39)
+        Me.srchSku.Location = New System.Drawing.Point(279, 28)
         Me.srchSku.MenuManager = Me.BarManager1
         Me.srchSku.Name = "srchSku"
         Me.srchSku.Properties.ValidateOnEnterKey = True
@@ -230,11 +231,11 @@ Partial Class Inventory_List
         '
         'tblInventory
         '
-        Me.tblInventory.Location = New System.Drawing.Point(21, 78)
+        Me.tblInventory.Location = New System.Drawing.Point(11, 59)
         Me.tblInventory.MainView = Me.tblInventoryList
         Me.tblInventory.MenuManager = Me.BarManager1
         Me.tblInventory.Name = "tblInventory"
-        Me.tblInventory.Size = New System.Drawing.Size(607, 318)
+        Me.tblInventory.Size = New System.Drawing.Size(788, 318)
         Me.tblInventory.TabIndex = 36
         Me.tblInventory.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.tblInventoryList})
         '
@@ -243,6 +244,8 @@ Partial Class Inventory_List
         Me.tblInventoryList.Columns.AddRange(New DevExpress.XtraGrid.Columns.GridColumn() {Me.id, Me.category, Me.name, Me.description, Me.brand, Me.price, Me.quantity, Me.barcode, Me.expiration_date})
         Me.tblInventoryList.GridControl = Me.tblInventory
         Me.tblInventoryList.Name = "tblInventoryList"
+        Me.tblInventoryList.OptionsCustomization.AllowRowSizing = True
+        Me.tblInventoryList.OptionsView.ColumnAutoWidth = False
         '
         'id
         '
@@ -320,7 +323,7 @@ Partial Class Inventory_List
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(657, 426)
+        Me.ClientSize = New System.Drawing.Size(811, 430)
         Me.Controls.Add(Me.tblInventory)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.srchSku)
