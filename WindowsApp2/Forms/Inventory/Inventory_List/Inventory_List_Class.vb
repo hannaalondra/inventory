@@ -13,7 +13,7 @@
     Public Property PRICE() As Double
     Public Property QUANTITY() As Integer
     Public Property BARCODE() As String
-    Public Property EXPIRATION_DATE() As Date?
+    Public Property EXPIRATION_DATE() As String
 
     ' Complete arguments constructor
     Public Sub New(
@@ -25,7 +25,7 @@
         ByVal price As Double,
         ByVal quantity As Integer,
         ByVal barcode As String,
-        ByVal expiration_date As Date?
+        ByVal expiration_date As String
     )
         ' Assign Param values to Properties
         Me.ID = id
