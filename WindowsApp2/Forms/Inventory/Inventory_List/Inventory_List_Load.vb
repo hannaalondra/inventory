@@ -9,7 +9,7 @@ Module Inventory_List_Load
         ' Clear previously retrieved data
         public_glist_inventory.Clear()
         ' SQL Initialize Command: StoredProcedure fetch inventory data
-        view_name = "viewInventoryList"
+        view_name = "getInventoryList"
         mycommand.CommandText = "EXECUTE " & view_name
 
         Try
@@ -18,6 +18,8 @@ Module Inventory_List_Load
             While myreader.Read
                 ' SQL Read Every Record
                 Debug.WriteLine(myreader("name"))
+                Debug.WriteLine(myreader("description"))
+                Debug.WriteLine(myreader("expiration_date"))
                 ' FIRST Construct Inventory_List Object
                 ' THEN  Add to BindingList inventory
                 public_glist_inventory.Add(

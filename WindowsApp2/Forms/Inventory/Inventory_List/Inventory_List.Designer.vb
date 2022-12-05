@@ -47,7 +47,7 @@ Partial Class Inventory_List
         Me.tblInventoryList = New DevExpress.XtraGrid.Views.Grid.GridView()
         Me.id = New DevExpress.XtraGrid.Columns.GridColumn()
         Me.category = New DevExpress.XtraGrid.Columns.GridColumn()
-        Me.name = New DevExpress.XtraGrid.Columns.GridColumn()
+        Me.colName = New DevExpress.XtraGrid.Columns.GridColumn()
         Me.description = New DevExpress.XtraGrid.Columns.GridColumn()
         Me.brand = New DevExpress.XtraGrid.Columns.GridColumn()
         Me.price = New DevExpress.XtraGrid.Columns.GridColumn()
@@ -127,15 +127,17 @@ Partial Class Inventory_List
         Me.barDockControlTop.Dock = System.Windows.Forms.DockStyle.Top
         Me.barDockControlTop.Location = New System.Drawing.Point(0, 0)
         Me.barDockControlTop.Manager = Me.BarManager1
-        Me.barDockControlTop.Size = New System.Drawing.Size(657, 0)
+        Me.barDockControlTop.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.barDockControlTop.Size = New System.Drawing.Size(876, 0)
         '
         'barDockControlBottom
         '
         Me.barDockControlBottom.CausesValidation = False
         Me.barDockControlBottom.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.barDockControlBottom.Location = New System.Drawing.Point(0, 402)
+        Me.barDockControlBottom.Location = New System.Drawing.Point(0, 494)
         Me.barDockControlBottom.Manager = Me.BarManager1
-        Me.barDockControlBottom.Size = New System.Drawing.Size(657, 24)
+        Me.barDockControlBottom.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.barDockControlBottom.Size = New System.Drawing.Size(876, 30)
         '
         'barDockControlLeft
         '
@@ -143,15 +145,17 @@ Partial Class Inventory_List
         Me.barDockControlLeft.Dock = System.Windows.Forms.DockStyle.Left
         Me.barDockControlLeft.Location = New System.Drawing.Point(0, 0)
         Me.barDockControlLeft.Manager = Me.BarManager1
-        Me.barDockControlLeft.Size = New System.Drawing.Size(0, 402)
+        Me.barDockControlLeft.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.barDockControlLeft.Size = New System.Drawing.Size(0, 494)
         '
         'barDockControlRight
         '
         Me.barDockControlRight.CausesValidation = False
         Me.barDockControlRight.Dock = System.Windows.Forms.DockStyle.Right
-        Me.barDockControlRight.Location = New System.Drawing.Point(657, 0)
+        Me.barDockControlRight.Location = New System.Drawing.Point(876, 0)
         Me.barDockControlRight.Manager = Me.BarManager1
-        Me.barDockControlRight.Size = New System.Drawing.Size(0, 402)
+        Me.barDockControlRight.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.barDockControlRight.Size = New System.Drawing.Size(0, 494)
         '
         'ItemsTableAdapter
         '
@@ -159,88 +163,99 @@ Partial Class Inventory_List
         '
         'srchName
         '
-        Me.srchName.Location = New System.Drawing.Point(54, 39)
+        Me.srchName.Location = New System.Drawing.Point(72, 48)
+        Me.srchName.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.srchName.MenuManager = Me.BarManager1
         Me.srchName.Name = "srchName"
         Me.srchName.Properties.ValidateOnEnterKey = True
-        Me.srchName.Size = New System.Drawing.Size(73, 20)
+        Me.srchName.Size = New System.Drawing.Size(97, 22)
         Me.srchName.TabIndex = 6
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(18, 43)
+        Me.Label1.Location = New System.Drawing.Point(24, 53)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(35, 13)
+        Me.Label1.Size = New System.Drawing.Size(45, 17)
         Me.Label1.TabIndex = 15
         Me.Label1.Text = "Name"
         '
         'btnSearch
         '
         Me.btnSearch.ImageOptions.Image = CType(resources.GetObject("btnSearch.ImageOptions.Image"), System.Drawing.Image)
-        Me.btnSearch.Location = New System.Drawing.Point(367, 38)
+        Me.btnSearch.Location = New System.Drawing.Point(489, 47)
+        Me.btnSearch.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btnSearch.Name = "btnSearch"
-        Me.btnSearch.Size = New System.Drawing.Size(75, 23)
+        Me.btnSearch.Size = New System.Drawing.Size(100, 28)
         Me.btnSearch.TabIndex = 26
         Me.btnSearch.Text = "Search"
         '
         'btnClear
         '
-        Me.btnClear.Location = New System.Drawing.Point(448, 38)
+        Me.btnClear.Location = New System.Drawing.Point(597, 47)
+        Me.btnClear.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btnClear.Name = "btnClear"
-        Me.btnClear.Size = New System.Drawing.Size(75, 23)
+        Me.btnClear.Size = New System.Drawing.Size(100, 28)
         Me.btnClear.TabIndex = 27
         Me.btnClear.Text = "Clear"
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(134, 43)
+        Me.Label2.Location = New System.Drawing.Point(179, 53)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(35, 13)
+        Me.Label2.Size = New System.Drawing.Size(46, 17)
         Me.Label2.TabIndex = 29
         Me.Label2.Text = "Brand"
         '
         'srchBrand
         '
-        Me.srchBrand.Location = New System.Drawing.Point(170, 39)
+        Me.srchBrand.Location = New System.Drawing.Point(227, 48)
+        Me.srchBrand.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.srchBrand.MenuManager = Me.BarManager1
         Me.srchBrand.Name = "srchBrand"
         Me.srchBrand.Properties.ValidateOnEnterKey = True
-        Me.srchBrand.Size = New System.Drawing.Size(73, 20)
+        Me.srchBrand.Size = New System.Drawing.Size(97, 22)
         Me.srchBrand.TabIndex = 28
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(249, 42)
+        Me.Label3.Location = New System.Drawing.Point(332, 52)
+        Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(26, 13)
+        Me.Label3.Size = New System.Drawing.Size(32, 17)
         Me.Label3.TabIndex = 31
         Me.Label3.Text = "Sku"
         '
         'srchSku
         '
-        Me.srchSku.Location = New System.Drawing.Point(277, 39)
+        Me.srchSku.Location = New System.Drawing.Point(369, 48)
+        Me.srchSku.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.srchSku.MenuManager = Me.BarManager1
         Me.srchSku.Name = "srchSku"
         Me.srchSku.Properties.ValidateOnEnterKey = True
-        Me.srchSku.Size = New System.Drawing.Size(73, 20)
+        Me.srchSku.Size = New System.Drawing.Size(97, 22)
         Me.srchSku.TabIndex = 30
         '
         'tblInventory
         '
-        Me.tblInventory.Location = New System.Drawing.Point(21, 78)
+        Me.tblInventory.EmbeddedNavigator.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.tblInventory.Location = New System.Drawing.Point(28, 96)
         Me.tblInventory.MainView = Me.tblInventoryList
+        Me.tblInventory.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.tblInventory.MenuManager = Me.BarManager1
         Me.tblInventory.Name = "tblInventory"
-        Me.tblInventory.Size = New System.Drawing.Size(607, 318)
+        Me.tblInventory.Size = New System.Drawing.Size(809, 391)
         Me.tblInventory.TabIndex = 36
         Me.tblInventory.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.tblInventoryList})
         '
         'tblInventoryList
         '
-        Me.tblInventoryList.Columns.AddRange(New DevExpress.XtraGrid.Columns.GridColumn() {Me.id, Me.category, Me.name, Me.description, Me.brand, Me.price, Me.quantity, Me.barcode, Me.expiration_date})
+        Me.tblInventoryList.Columns.AddRange(New DevExpress.XtraGrid.Columns.GridColumn() {Me.id, Me.category, Me.colName, Me.description, Me.brand, Me.price, Me.quantity, Me.barcode, Me.expiration_date})
+        Me.tblInventoryList.DetailHeight = 431
         Me.tblInventoryList.GridControl = Me.tblInventory
         Me.tblInventoryList.Name = "tblInventoryList"
         '
@@ -248,79 +263,97 @@ Partial Class Inventory_List
         '
         Me.id.Caption = "ID"
         Me.id.FieldName = "ID"
+        Me.id.MinWidth = 27
         Me.id.Name = "id"
         Me.id.Visible = True
         Me.id.VisibleIndex = 0
+        Me.id.Width = 100
         '
         'category
         '
         Me.category.Caption = "Category"
         Me.category.FieldName = "CATEGORY"
+        Me.category.MinWidth = 27
         Me.category.Name = "category"
         Me.category.Visible = True
         Me.category.VisibleIndex = 1
+        Me.category.Width = 100
         '
-        'name
+        'colName
         '
-        Me.name.Caption = "Name"
-        Me.name.FieldName = "NAME"
-        Me.name.Name = "name"
-        Me.name.Visible = True
-        Me.name.VisibleIndex = 2
+        Me.colName.Caption = "Name"
+        Me.colName.FieldName = "NAME"
+        Me.colName.MinWidth = 27
+        Me.colName.Name = "colName"
+        Me.colName.Visible = True
+        Me.colName.VisibleIndex = 2
+        Me.colName.Width = 100
         '
         'description
         '
         Me.description.Caption = "Description"
         Me.description.FieldName = "DESCRIPTION"
+        Me.description.MinWidth = 27
         Me.description.Name = "description"
         Me.description.Visible = True
         Me.description.VisibleIndex = 3
+        Me.description.Width = 100
         '
         'brand
         '
         Me.brand.Caption = "Brand"
         Me.brand.FieldName = "BRAND"
+        Me.brand.MinWidth = 27
         Me.brand.Name = "brand"
         Me.brand.Visible = True
         Me.brand.VisibleIndex = 4
+        Me.brand.Width = 100
         '
         'price
         '
         Me.price.Caption = "Price"
         Me.price.FieldName = "PRICE"
+        Me.price.MinWidth = 27
         Me.price.Name = "price"
         Me.price.Visible = True
         Me.price.VisibleIndex = 5
+        Me.price.Width = 100
         '
         'quantity
         '
         Me.quantity.Caption = "Quantity"
         Me.quantity.FieldName = "QUANTITY"
+        Me.quantity.MinWidth = 27
         Me.quantity.Name = "quantity"
         Me.quantity.Visible = True
         Me.quantity.VisibleIndex = 6
+        Me.quantity.Width = 100
         '
         'barcode
         '
         Me.barcode.Caption = "Barcode"
         Me.barcode.FieldName = "BARCODE"
+        Me.barcode.MinWidth = 27
         Me.barcode.Name = "barcode"
         Me.barcode.Visible = True
         Me.barcode.VisibleIndex = 7
+        Me.barcode.Width = 100
         '
         'expiration_date
         '
         Me.expiration_date.Caption = "Expiration_Date"
         Me.expiration_date.FieldName = "EXPIRATION_DATE"
+        Me.expiration_date.MinWidth = 27
         Me.expiration_date.Name = "expiration_date"
         Me.expiration_date.Visible = True
         Me.expiration_date.VisibleIndex = 8
+        Me.expiration_date.Width = 100
         '
         'Inventory_List
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(657, 426)
+        Me.ClientSize = New System.Drawing.Size(876, 524)
         Me.Controls.Add(Me.tblInventory)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.srchSku)
@@ -334,7 +367,8 @@ Partial Class Inventory_List
         Me.Controls.Add(Me.barDockControlRight)
         Me.Controls.Add(Me.barDockControlBottom)
         Me.Controls.Add(Me.barDockControlTop)
-        Me.name = "Inventory_List"
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Name = "Inventory_List"
         Me.Text = "Inventory_List"
         CType(Me.BarManager1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.srchName.Properties, System.ComponentModel.ISupportInitialize).EndInit()
@@ -369,7 +403,7 @@ Partial Class Inventory_List
     Friend WithEvents tblInventoryList As DevExpress.XtraGrid.Views.Grid.GridView
     Friend WithEvents id As DevExpress.XtraGrid.Columns.GridColumn
     Friend WithEvents category As DevExpress.XtraGrid.Columns.GridColumn
-    Friend WithEvents name As DevExpress.XtraGrid.Columns.GridColumn
+    Friend WithEvents colName As DevExpress.XtraGrid.Columns.GridColumn
     Friend WithEvents description As DevExpress.XtraGrid.Columns.GridColumn
     Friend WithEvents brand As DevExpress.XtraGrid.Columns.GridColumn
     Friend WithEvents price As DevExpress.XtraGrid.Columns.GridColumn
