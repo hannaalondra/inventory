@@ -6,9 +6,9 @@
         public_load_inventory()
         Debug.WriteLine("display")
         ' Set UI DataSource to BindingList
-        Me.tblInventoryList.DataSource = public_glist_inventory
+        tblInventory.DataSource = public_glist_inventory
         ' UI Optimization
-        tblInventory.BestFitColumns()
+        tblInventoryList.BestFitColumns()
     End Sub
 
     Private Sub tblInventoryList_Click(sender As Object, e As EventArgs)
