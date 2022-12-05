@@ -32,7 +32,7 @@ Module Inventory_List_Load
                         myreader("price"),
                         myreader("quantity"),
                         myreader("barcode"),
-                        myreader("expiration_date")
+                        myreader("expiration_date").ToString
                     )
                 )
             End While
