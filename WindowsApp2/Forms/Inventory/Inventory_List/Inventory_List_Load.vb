@@ -18,8 +18,6 @@ Module Inventory_List_Load
             While myreader.Read
                 ' SQL Read Every Record
                 Debug.WriteLine(myreader("name"))
-                Debug.WriteLine(myreader("description"))
-                Debug.WriteLine(myreader("expiration_date"))
                 ' FIRST Construct Inventory_List Object
                 ' THEN  Add to BindingList inventory
                 public_glist_inventory.Add(

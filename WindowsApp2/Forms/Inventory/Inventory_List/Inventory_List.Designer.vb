@@ -127,7 +127,7 @@ Partial Class Inventory_List
         Me.barDockControlTop.Dock = System.Windows.Forms.DockStyle.Top
         Me.barDockControlTop.Location = New System.Drawing.Point(0, 0)
         Me.barDockControlTop.Manager = Me.BarManager1
-        Me.barDockControlTop.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.barDockControlTop.Margin = New System.Windows.Forms.Padding(4)
         Me.barDockControlTop.Size = New System.Drawing.Size(876, 0)
         '
         'barDockControlBottom
@@ -136,7 +136,7 @@ Partial Class Inventory_List
         Me.barDockControlBottom.Dock = System.Windows.Forms.DockStyle.Bottom
         Me.barDockControlBottom.Location = New System.Drawing.Point(0, 494)
         Me.barDockControlBottom.Manager = Me.BarManager1
-        Me.barDockControlBottom.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.barDockControlBottom.Margin = New System.Windows.Forms.Padding(4)
         Me.barDockControlBottom.Size = New System.Drawing.Size(876, 30)
         '
         'barDockControlLeft
@@ -145,7 +145,7 @@ Partial Class Inventory_List
         Me.barDockControlLeft.Dock = System.Windows.Forms.DockStyle.Left
         Me.barDockControlLeft.Location = New System.Drawing.Point(0, 0)
         Me.barDockControlLeft.Manager = Me.BarManager1
-        Me.barDockControlLeft.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.barDockControlLeft.Margin = New System.Windows.Forms.Padding(4)
         Me.barDockControlLeft.Size = New System.Drawing.Size(0, 494)
         '
         'barDockControlRight
@@ -154,7 +154,7 @@ Partial Class Inventory_List
         Me.barDockControlRight.Dock = System.Windows.Forms.DockStyle.Right
         Me.barDockControlRight.Location = New System.Drawing.Point(876, 0)
         Me.barDockControlRight.Manager = Me.BarManager1
-        Me.barDockControlRight.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.barDockControlRight.Margin = New System.Windows.Forms.Padding(4)
         Me.barDockControlRight.Size = New System.Drawing.Size(0, 494)
         '
         'ItemsTableAdapter
@@ -164,7 +164,7 @@ Partial Class Inventory_List
         'srchName
         '
         Me.srchName.Location = New System.Drawing.Point(72, 48)
-        Me.srchName.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.srchName.Margin = New System.Windows.Forms.Padding(4)
         Me.srchName.MenuManager = Me.BarManager1
         Me.srchName.Name = "srchName"
         Me.srchName.Properties.ValidateOnEnterKey = True
@@ -185,7 +185,7 @@ Partial Class Inventory_List
         '
         Me.btnSearch.ImageOptions.Image = CType(resources.GetObject("btnSearch.ImageOptions.Image"), System.Drawing.Image)
         Me.btnSearch.Location = New System.Drawing.Point(489, 47)
-        Me.btnSearch.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.btnSearch.Margin = New System.Windows.Forms.Padding(4)
         Me.btnSearch.Name = "btnSearch"
         Me.btnSearch.Size = New System.Drawing.Size(100, 28)
         Me.btnSearch.TabIndex = 26
@@ -194,7 +194,7 @@ Partial Class Inventory_List
         'btnClear
         '
         Me.btnClear.Location = New System.Drawing.Point(597, 47)
-        Me.btnClear.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.btnClear.Margin = New System.Windows.Forms.Padding(4)
         Me.btnClear.Name = "btnClear"
         Me.btnClear.Size = New System.Drawing.Size(100, 28)
         Me.btnClear.TabIndex = 27
@@ -213,7 +213,7 @@ Partial Class Inventory_List
         'srchBrand
         '
         Me.srchBrand.Location = New System.Drawing.Point(227, 48)
-        Me.srchBrand.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.srchBrand.Margin = New System.Windows.Forms.Padding(4)
         Me.srchBrand.MenuManager = Me.BarManager1
         Me.srchBrand.Name = "srchBrand"
         Me.srchBrand.Properties.ValidateOnEnterKey = True
@@ -233,7 +233,7 @@ Partial Class Inventory_List
         'srchSku
         '
         Me.srchSku.Location = New System.Drawing.Point(369, 48)
-        Me.srchSku.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.srchSku.Margin = New System.Windows.Forms.Padding(4)
         Me.srchSku.MenuManager = Me.BarManager1
         Me.srchSku.Name = "srchSku"
         Me.srchSku.Properties.ValidateOnEnterKey = True
@@ -242,10 +242,10 @@ Partial Class Inventory_List
         '
         'tblInventory
         '
-        Me.tblInventory.EmbeddedNavigator.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.tblInventory.EmbeddedNavigator.Margin = New System.Windows.Forms.Padding(4)
         Me.tblInventory.Location = New System.Drawing.Point(28, 96)
         Me.tblInventory.MainView = Me.tblInventoryList
-        Me.tblInventory.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.tblInventory.Margin = New System.Windows.Forms.Padding(4)
         Me.tblInventory.MenuManager = Me.BarManager1
         Me.tblInventory.Name = "tblInventory"
         Me.tblInventory.Size = New System.Drawing.Size(809, 391)
@@ -272,7 +272,7 @@ Partial Class Inventory_List
         'category
         '
         Me.category.Caption = "Category"
-        Me.category.FieldName = "CATEGORY"
+        Me.category.FieldName = "CATEGORY_NAME"
         Me.category.MinWidth = 27
         Me.category.Name = "category"
         Me.category.Visible = True
@@ -367,7 +367,7 @@ Partial Class Inventory_List
         Me.Controls.Add(Me.barDockControlRight)
         Me.Controls.Add(Me.barDockControlBottom)
         Me.Controls.Add(Me.barDockControlTop)
-        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Margin = New System.Windows.Forms.Padding(4)
         Me.Name = "Inventory_List"
         Me.Text = "Inventory_List"
         CType(Me.BarManager1, System.ComponentModel.ISupportInitialize).EndInit()
