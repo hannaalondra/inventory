@@ -9,4 +9,7 @@ Module Public_Variables
     Public mycommand As New SqlCommand
     Public myreader As SqlDataReader
     Public _isConnected As Boolean
+
+    'newly added
+    Public view_name As String
 End Module
