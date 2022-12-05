@@ -106,3 +106,14 @@ C:\Users\RR-PC\source\repos\WindowsApp2\WindowsApp2\bin\Debug\de\DevExpress.Xtra
 C:\Users\RR-PC\source\repos\WindowsApp2\WindowsApp2\bin\Debug\es\DevExpress.XtraRichEdit.v22.1.resources.dll
 C:\Users\RR-PC\source\repos\WindowsApp2\WindowsApp2\bin\Debug\ja\DevExpress.XtraRichEdit.v22.1.resources.dll
 C:\Users\RR-PC\source\repos\WindowsApp2\WindowsApp2\obj\Debug\WindowsApp2.Add_Item_Form.resources
+C:\Users\RR-PC\Documents\GitHub\inventory\WindowsApp2\obj\Debug\WindowsApp2.vbproj.AssemblyReference.cache
+C:\Users\RR-PC\Documents\GitHub\inventory\WindowsApp2\obj\Debug\WindowsApp2.Inventory_List.resources
+C:\Users\RR-PC\Documents\GitHub\inventory\WindowsApp2\obj\Debug\WindowsApp2.Inventory_Manage_Record.resources
+C:\Users\RR-PC\Documents\GitHub\inventory\WindowsApp2\obj\Debug\WindowsApp2.Add_Item_Form.resources
+C:\Users\RR-PC\Documents\GitHub\inventory\WindowsApp2\obj\Debug\WindowsApp2.Resources.resources
+C:\Users\RR-PC\Documents\GitHub\inventory\WindowsApp2\obj\Debug\WindowsApp2.vbproj.GenerateResource.cache
+C:\Users\RR-PC\Documents\GitHub\inventory\WindowsApp2\obj\Debug\WindowsApp2.exe.licenses
+C:\Users\RR-PC\Documents\GitHub\inventory\WindowsApp2\obj\Debug\WindowsApp2.vbproj.CoreCompileInputs.cache
+C:\Users\RR-PC\Documents\GitHub\inventory\WindowsApp2\obj\Debug\WindowsApp2.exe
+C:\Users\RR-PC\Documents\GitHub\inventory\WindowsApp2\obj\Debug\WindowsApp2.xml
+C:\Users\RR-PC\Documents\GitHub\inventory\WindowsApp2\obj\Debug\WindowsApp2.pdb

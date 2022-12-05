@@ -11,7 +11,7 @@
         tblInventory.BestFitColumns()
     End Sub
 
-    Private Sub tblInventoryList_Click(sender As Object, e As EventArgs) Handles tblInventoryList.Click
+    Private Sub tblInventoryList_Click(sender As Object, e As EventArgs)
 
     End Sub
 

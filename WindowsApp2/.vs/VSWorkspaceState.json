@@ -1,7 +1,12 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\bin",
+    "\\Forms",
+    "\\Forms\\Inventory",
+    "\\Forms\\Inventory\\Inventory_List",
+    "\\Forms\\Inventory\\Inventory_Manage"
   ],
-  "SelectedNode": "\\WindowsApp2.sln",
+  "SelectedNode": "\\Forms\\Inventory\\Inventory_List\\Inventory_List.Designer.vb",
   "PreviewInSolutionExplorer": false
 }
